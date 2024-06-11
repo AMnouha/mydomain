@@ -1,0 +1,64 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    text-align: left;
+}
+
+.logo {
+    max-width: 150px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    font-size: 3em;
+    color: #8B4513;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: #8B4513;
+    margin: 10px 0;
+}
+
+.learn-more {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #8B4513;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #a0522d;
+}
+
+.image-container {
+    flex: 1;
+    text-align: right;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-
